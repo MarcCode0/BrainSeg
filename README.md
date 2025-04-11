@@ -42,3 +42,24 @@ Le rôle de ce fichier est de choisir au hasard les fichiers (dossiers de patien
 ### `logger.py`
 
 Ce fichier configure les logs pour suivre le déroulement de l'exécution du projet. Il utilise la bibliothèque `logging` et `colorlog` pour personnaliser les couleurs des logs selon le niveau d'importance.
+
+## Datasets
+
+### Dataset 2D
+
+Le dataset 2D utilisé pour l'entraînement et le test est constitué de **slices médianes extraites de volumes d'IRM 3D**.
+
+Ce dataset 2D est disponible sur Kaggle :
+- [Dataset 2D - 2D Brain](https://www.kaggle.com/datasets/lonidasspartiate/2d-brain)
+
+Le dataset a été divisé en un ensemble de **training** (85%) et un ensemble de **test** (15%).
+
+### Dataset 3D
+
+Le dataset 3D est le dataset d'entraînement **BraTS 2020**, qui contient des volumes d'IRM cérébrales en 3D annotés, utilisés pour la segmentation des tumeurs cérébrales. Le dataset de validation BraTS2020 est disponible publiquement mais pas la vérité terrain (les masques de segmentation) associée, il n'est donc pas utilisé dans ce projet. Le dataset de test n'est pas disponible publiquement.
+
+Ce dataset 3D est disponible sur Kaggle :
+- [Dataset 3D - BRATS 2020](https://www.kaggle.com/datasets/lonidasspartiate/brats2020-3d)
+
+Ce dataset a également été divisé en un ensemble de **training** (85%) et un ensemble de **test** (15%).
+
