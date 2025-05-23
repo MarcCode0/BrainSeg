@@ -1,5 +1,6 @@
 # BrainSeg
 Ce projet a pour but de réaliser la segmentation de tumeurs cérébrales (gliomes) à partir d'IRM en 3D à l'aide de modèles de Deep Learning. Un première étape consite à travailler sur des images 2D qui sont des slices extraites des ficheirs 3D. Tous les scripts sont écrits en Python et utilisent des bibliothèques telles que TensorFlow et Keras pour l'entraînement et la validation des modèles.
+Un rapport explicatif au format PDF est disponible dans le répertoire.
 
 ## Prérequis
 
